@@ -14,10 +14,9 @@ public class JanuaryEigth {
     public static int countPrefixSuffixPairs(String[] words) {
         int numberOfPrefixSuffixPairs = 0;
 
-        for(int i=0; i < words.length; i++){
+        for(int i=0; i < words.length - 1; i++){
             for(int j=i+1; j < words.length; j++) {
                 if(isPrefixAndSuffix(words[i], words[j])) {
-                    System.out.println("i=" + i + " and j=" + j + " are a pair.");
                     numberOfPrefixSuffixPairs++;
                 }
             }
