@@ -1,5 +1,18 @@
 package main.java.leetcode.january;
 
+/**
+ * <p>
+ * Solves LeetCode challenge from January 5th 2025:
+ * </p>
+ *
+ * <p>
+ * <a href="https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/?envType=daily-question&envId=2025-01-08">
+ * January 8th 2025 Problem
+ * </a>
+ * </p>
+ *
+ * @author nbarata10
+ */
 public class JanuaryEigth {
     public static void main(String[] args) {
         final String[] words = {"a","aba","ababa","aa"};
